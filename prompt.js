@@ -1,6 +1,6 @@
 //vytvoření promptů pro zadání jména + příjmení a věku a naplnění do proměnných
-let celeJmeno = prompt('Zadej jméno a příjmení');
-let vek = prompt('Zadej věk', 18);
+let celeJmeno = prompt('Zadej jmeno a prijimeni');
+let vek = prompt('Zadej svuj vek', 18);
 
 // vypsání výsledků pomocí alert()
-alert(`Jmenuješ se ${celeJmeno} a je ti ${vek} let.`);
+alert(`Jmenujes se ${celeJmeno} a je ti ${vek} let.`);
