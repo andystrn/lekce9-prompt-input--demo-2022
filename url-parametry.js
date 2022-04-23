@@ -1,10 +1,9 @@
 //získání GET parametrů
 const queryString = window.location.search;
-console.log(queryString);
 const urlParams = new URLSearchParams(queryString);
 
 //element s výsledky
-const resultElement = document.querySelector('#seznam-parametru');
+const resultElement = document.querySelector('#seznam-vysledku');
 
 // procházení parametrů a jejich výpis
 for (const entry of urlParams.entries()) {
